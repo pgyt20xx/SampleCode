@@ -1,11 +1,15 @@
+import interfaceSample.FactoryS;
 import interfaceSample.InterfaceA;
 
 public class Main {
 	public static void main(String[] args) {
-		InterfaceA a = InterfaceA.createA();
-		a.test();
+		InterfaceA x = null;
 		
-		InterfaceA b = InterfaceA.createB();
-		b.test();
+		x = new FactoryS().getInstance("A");
+		x.test();
+		
+		x = new FactoryS().getInstance("B");
+		x.test();
+		
 	}
 }
