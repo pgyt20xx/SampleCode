@@ -1,7 +1,7 @@
 import interfaceSample.FactoryS;
 import interfaceSample.InterfaceA;
 
-public class Main {
+public class FactoryMethodMain {
 	public static void main(String[] args) {
 		InterfaceA x = null;
 		
